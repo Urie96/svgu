@@ -1,0 +1,29 @@
+{
+  "name": "svgu",
+  "version": "1.0.1",
+  "description": "compress svg and copy data uri to clipboard.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Urie96/svgu.git"
+  },
+  "bin": {
+    "svgu": "./bin/svgu"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Urie96/svgu/issues"
+  },
+  "homepage": "https://github.com/Urie96/svgu#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clipboardy": "^2.3.0",
+    "mini-svg-data-uri": "^1.2.3",
+    "svgo": "^1.3.2"
+  }
+}
